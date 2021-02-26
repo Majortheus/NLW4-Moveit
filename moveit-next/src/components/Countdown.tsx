@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import { CountdownContext } from '../contexts/CountdownContext';
+import Cookies from 'js-cookie';
 import styles from '../styles/components/Countdown.module.css';
 
 
